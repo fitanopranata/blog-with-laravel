@@ -50,7 +50,7 @@
                 Welcome back, {{ auth()->user()->name }}
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Dashboard</a></li>
+                <li><a class="dropdown-item" href="/dashboard">Dashboard</a></li>
                 <li><hr class="dropdown-divider"></li>
                 <li>
                   <form action="/logout" method="post">
