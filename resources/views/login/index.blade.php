@@ -2,7 +2,7 @@
 
 @section('body')
 
-<div class="row justify-content-center">
+<div class="row justify-content-center me-0 ms-0">
   <div class="col-md-4">
 
     @if (session()->has('loginError'))
@@ -30,7 +30,7 @@
           <label for="password">Password</label>
         </div>
         <button class="w-100 btn btn-lg btn-primary" type="submit">Login</button>
-        <p class="mt-5 mb-3 text-body-secondary">&copy; <?= date('Y'); ?></p>
+        <p class="mt-3 text-body-secondary">&copy; <?= date('Y'); ?></p>
       </form>
   </main>
   </div>

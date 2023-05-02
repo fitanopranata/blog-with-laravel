@@ -30,7 +30,7 @@
 <body>
     <nav class="navbar navbar-expand-lg py-3" style="background-color: #fff; box-shadow: 1px 1px 1px 1px rgb(0 0 0 / 20%);">
         <div class="container">
-          <a class="navbar-brand" href="#">My Blog</a>
+          <a class="navbar-brand" href="/">My Blog</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
